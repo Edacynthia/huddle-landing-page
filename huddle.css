@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 18px;
+    font-family: 'Poppins';
+}
+
+h1,button{
+    font-weight: 600;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+header{
+    background-image: url("../huddlelandingpage/images/bg-hero-desktop.svg");
+    background-color: hsl(193, 100%, 96%);
+    padding: 40px 60px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn{
+    padding: 15px 60px;
+    background-color: #fff;
+    border: none;
+    border-radius: 25px;
+    float: right;
+}
+
+.build-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0px 20px;
+}
+
+.build{
+    width: 45%;
+}
+
+.build h1{
+    font-size: bold;
+    padding-right: 40px;
+    margin: 25px 0px;
+}
+
+.build p{
+    font-size: 16px;
+    padding-right: 40px;
+    margin: 25px 0px;
+}
+
+.build button{
+    background-color: hsl(322, 100%, 66%);
+    color: #fff;
+    padding: 15px 60px;
+    border: none;
+    border-radius: 25px;
+}
+
+.illus{
+    width: 55%;
+}
+
+.content{
+    padding: 0.5rem 7rem;
+    padding-right: 20px;
+    box-shadow:  0 0 10px rgba(0, 0, 0, .1);
+}
+
+.bend{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 0px 20px;
+}
+
+.bentol{
+    width: 36%;
+}
+
+.bentol h1{
+    font-size: bold;
+    margin: 20px 0px;
+}
+
+.rent{
+    width: 50%;
+}
+   
