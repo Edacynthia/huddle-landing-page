@@ -7,6 +7,7 @@
 body{
     font-size: 18px;
     font-family: 'Poppins';
+    flex: 1 1 100px;
 }
 
 h1,button{
@@ -21,7 +22,8 @@ img{
 header{
     background-image: url("../huddlelandingpage/images/bg-hero-desktop.svg");
     background-color: hsl(193, 100%, 96%);
-    padding: 40px 60px;
+    padding: 40px 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
 }
 
 .nav{
@@ -76,7 +78,11 @@ header{
 .content{
     padding: 0.5rem 7rem;
     padding-right: 20px;
-    box-shadow:  0 0 10px rgba(0, 0, 0, .1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 0px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
 }
 
 .bend{
@@ -87,15 +93,85 @@ header{
 }
 
 .bentol{
-    width: 36%;
+    width: 45%;
 }
 
 .bentol h1{
     font-size: bold;
     margin: 20px 0px;
+    padding-left: 90px;
+}
+
+.bentol p{
+    font-size: bold;
+    margin: 20px 0px;
+    padding: 1px;
+    padding-left: 90px;
 }
 
 .rent{
-    width: 50%;
+    width: 40%;
 }
-   
+
+.bill{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    box-shadow: 2px black;
+}
+
+.up{
+    padding: 100px;
+}
+
+.down h1, p{
+    margin: 25px 0px;
+    padding-right: 45px;
+}
+
+.not{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+
+}
+
+.reply h1, p{
+    width: 103%;
+}
+
+.buy{
+    padding-left: 100px;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  hsl(192, 100%, 9%);
+    padding: 100px;
+    gap: 20%;
+}
+
+.cow {
+    color: #fff;
+}
+
+.cow p{
+    padding-left: 40px;
+}
+
+.goat{
+    width: 40%;
+    row-gap: 10px;
+    color: #fff;
+}
+
+.two{
+    color: #fff;
+    margin: 100px;
+    column-gap: 10px;
+}
