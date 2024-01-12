@@ -7,7 +7,6 @@
 body{
     font-size: 18px;
     font-family: 'Poppins';
-    flex: 1 1 100px;
 }
 
 h1,button{
@@ -26,18 +25,15 @@ header{
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
 }
 
-.nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.nav, .btn{
+    float: inline-end;
 }
 
 .btn{
-    padding: 15px 60px;
+    padding: 10px 40px;
     background-color: #fff;
     border: none;
     border-radius: 25px;
-    float: right;
 }
 
 .build-sec{
@@ -52,15 +48,17 @@ header{
 }
 
 .build h1{
+    color:  hsl(192, 100%, 9%);
     font-size: bold;
     padding-right: 40px;
-    margin: 25px 0px;
+    margin: 5px 0;
 }
 
 .build p{
+    color: hsl(192, 100%, 9%);
     font-size: 16px;
-    padding-right: 40px;
-    margin: 25px 0px;
+    padding-right: 100px;
+    margin: 35px 0px;
 }
 
 .build button{
@@ -72,7 +70,7 @@ header{
 }
 
 .illus{
-    width: 55%;
+    width: 50%;
 }
 
 .content{
@@ -147,31 +145,96 @@ header{
     padding-left: 100px;
 }
 
-.box{
+.foot-body{
+    position: relative;
+    max-width: 100%;
+    width: 55%;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    background-color:  hsl(192, 100%, 9%);
-    padding: 100px;
-    gap: 20%;
+    margin: auto;
+    background-color: #fff;
+    padding: 60px 0px;
+    box-shadow:  0 0 10px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+    margin-bottom: -105px;
 }
 
-.cow {
+.foot-body h1{
+    margin-bottom: 15px;
+}
+
+.foot-button{
+    margin-top: 20px;
+    padding: 24px 100px;
+    border: none;
+    border-radius: 40px;
+    background-color: hsl(322, 100%, 66%);
     color: #fff;
 }
 
-.cow p{
-    padding-left: 40px;
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(192, 100%, 9%);
+    color: #fff;
+    padding: 200px 100px 30px;
 }
 
-.goat{
+.footer-logo{
+    width: 250px;
+    color: #fff;
+    background-color: #fff;
+}
+
+.footer-sec{
+    display: flex;
+    margin-top: 40px 0px;
+}
+
+.sec-1{
+    min-width: 40%;
     width: 40%;
-    row-gap: 10px;
-    color: #fff;
 }
 
-.two{
-    color: #fff;
-    margin: 100px;
-    column-gap: 10px;
+ ul{
+    list-style-type: none;
+}
+
+.add{
+    display: flex;
+    align-items: flex-start;
+}
+
+.add img{
+    margin-top: 4px;
+    margin-right: 20px;
+}
+
+li{
+    margin-bottom: 20px;
+    padding-right: 60px;
+}
+
+.sec-2, .sec-3{
+    width: 20%;
+    margin-left: 30px;
+}
+
+.copy{
+    text-align: right;
+}
+@media (max-width: 390){
+    header{
+        padding: 30px 20px;
+    }
+    .build-sec{
+        flex-direction: column;
+        text-align: center;
+    }
+    .build{
+        width: 95%;
+    }
+    
 }
