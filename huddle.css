@@ -155,7 +155,7 @@ header{
     align-items: center;
     margin: auto;
     background-color: #fff;
-    padding: 60px 0px;
+    padding: 60px 0 ;
     box-shadow:  0 0 10px rgba(0, 0, 0, .1);
     border-radius: 10px;
     margin-bottom: -105px;
@@ -194,6 +194,8 @@ footer{
 }
 
 .sec-1{
+    display: flex;
+    align-items: center;
     min-width: 40%;
     width: 40%;
 }
@@ -204,7 +206,7 @@ footer{
 
 .add{
     display: flex;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .add img{
