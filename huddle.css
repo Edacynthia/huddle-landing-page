@@ -227,16 +227,231 @@ li{
 .copy{
     text-align: right;
 }
-@media (max-width: 390){
-    header{
-        padding: 30px 20px;
+@media (min-width: 360px) and (max-width: 800px){
+    .btn{
+        padding: 10px ;
     }
     .build-sec{
         flex-direction: column;
-        text-align: center;
+        display: inline-block;
+        width: 150%;
     }
-    .build{
-        width: 95%;
+    .build h1{
+        width: 180%;
+        line-height: 1;
     }
-    
+
+    .build-sec p{
+        width: 200%;
+    }
+
+    .build-sec .illus{
+        width: 70%;
+        margin-top: 30px;
+    }
+    .build-sec .btx{
+        padding: 10px 20px;
+        margin-bottom: 10px;
+    }
+
+    .bend{
+        flex-direction: column;
+        display: inline-block;
+    }
+    .content .rent{
+        width: 90%;
+        margin-bottom: 30px;
+    }
+    .bentol p{
+        width: 200%;
+        padding: 5px 30px;
+    }
+    .bentol h1{
+        padding: 5px 30px;
+        margin: 2px;
+    }
+
+    .bill {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .up{
+        padding: 1px;
+    }
+    .down p{
+        padding: 4px;
+    }
+    .roll{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .buy{
+        padding: 2px;
+    }
+    .not{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .foot-body{
+        padding: 30px;
+    }
+    .foot-button{
+        padding: 8px 15px;
+    }
+    .footer-sec{
+        flex-direction: column;
+        line-height: 1;
+    }
+        
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    .btn{
+        padding: 10px ;
+    }
+    .build-sec{
+        flex-direction: column;
+        display: inline-block;
+        width: 150%;
+    }
+    .build h1{
+        width: 180%;
+        line-height: 1;
+    }
+
+    .build-sec p{
+        width: 200%;
+    }
+
+    .build-sec .illus{
+        width: 70%;
+        margin-top: 30px;
+    }
+    .build-sec .btx{
+        padding: 10px 20px;
+        margin-bottom: 10px;
+    }
+
+    .bend{
+        flex-direction: column;
+        display: inline-block;
+    }
+    .content .rent{
+        width: 90%;
+        margin-bottom: 30px;
+    }
+    .bentol p{
+        width: 200%;
+        padding: 5px 30px;
+    }
+    .bentol h1{
+        padding: 5px 30px;
+        margin: 2px;
+    }
+
+    .bill {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .up{
+        padding: 1px;
+    }
+    .down p{
+        padding: 4px;
+    }
+    .roll{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .buy{
+        padding: 2px;
+    }
+    .not{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .foot-body h1{
+        padding: 0 60px;
+    }
+    .foot-button{
+        padding: px px;
+    }
+    .footer-sec{
+        flex-direction: row;
+    }
+}
+@media (min-width: 320px) and (max-width: 568px){
+    .btn{
+        padding: 10px ;
+    }
+    .build-sec{
+        flex-direction: column;
+        display: inline-block;
+        width: 150%;
+    }
+    .build h1{
+        width: 180%;
+        line-height: 1;
+    }
+
+    .build-sec p{
+        width: 200%;
+    }
+
+    .build-sec .illus{
+        width: 70%;
+        margin-top: 30px;
+    }
+    .build-sec .btx{
+        padding: 10px 20px;
+        margin-bottom: 10px;
+    }
+
+    .bend{
+        flex-direction: column;
+        display: inline-block;
+    }
+    .content .rent{
+        width: 90%;
+        margin-bottom: 30px;
+    }
+    .bentol p{
+        width: 200%;
+        padding: 5px 30px;
+    }
+    .bentol h1{
+        padding: 5px 30px;
+        margin: 2px;
+    }
+
+    .bill {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .up{
+        padding: 1px;
+    }
+    .down p{
+        padding: 4px;
+    }
+    .roll{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .buy{
+        padding: 2px;
+    }
+    .not{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .foot-body{
+        padding: 30px;
+    }
+    .foot-button{
+        padding: 8px 15px;
+    }
+    .footer-sec{
+        flex-direction: column;
+        line-height: 1;
+    }
 }
