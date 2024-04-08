@@ -6,7 +6,7 @@
 
 body{
     font-size: 18px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
 }
 
 h1,button{
@@ -146,6 +146,7 @@ header{
 }
 
 .foot-body{
+    font-family: 'Open Sans', sans-serif;
     position: relative;
     max-width: 100%;
     width: 55%;
@@ -176,6 +177,7 @@ header{
 
 footer{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     background-color: hsl(192, 100%, 9%);
     color: #fff;
@@ -190,6 +192,7 @@ footer{
 
 .footer-sec{
     display: flex;
+    flex-wrap: wrap;
     margin-top: 40px 0px;
 }
 
@@ -225,7 +228,8 @@ li{
 }
 
 .copy{
-    text-align: right;
+    font-size: 11px;
+    
 }
 @media (min-width: 360px) and (max-width: 800px){
     .btn{
@@ -292,8 +296,8 @@ li{
         flex-direction: column;
         padding: 20px;
     }
-    .foot-body{
-        padding: 30px;
+    .foot-body h1{
+        padding: 10px;
     }
     .foot-button{
         padding: 8px 15px;
@@ -371,9 +375,6 @@ li{
     }
     .foot-body h1{
         padding: 0 60px;
-    }
-    .foot-button{
-        padding: px px;
     }
     .footer-sec{
         flex-direction: row;
